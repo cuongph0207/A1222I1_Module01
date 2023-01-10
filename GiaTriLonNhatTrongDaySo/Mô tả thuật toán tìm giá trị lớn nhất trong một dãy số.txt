@@ -1,0 +1,10 @@
+BEGIN
+INPUT n
+a1,a2,a3...an
+i=1
+ai=MAX
+WHILE(i<=n)
+IF(MAX>ai) MAX = MAX
+ELSE MAX = ai
+i=i+1
+END
