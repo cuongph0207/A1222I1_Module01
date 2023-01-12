@@ -1,5 +1,0 @@
-BEGIN
-INPUT Math,Physics,Chemistry
-Average = (Math + Physics + Chemistry)/3
-OUTPUT Average
-END

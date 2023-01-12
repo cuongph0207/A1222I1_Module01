@@ -1,7 +1,0 @@
-BEGIN
-$ = 23000
-INPUT
-soTien
-VND = SoTien*$;
-OUTPUT soTien
-END
