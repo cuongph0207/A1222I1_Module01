@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<div>
+<script>
+    document.write("Bài 1");
+    document.write("</br>");
+    let physisc;
+    let chemistry;
+    let biological;
+    physisc = prompt("Nhập Điểm Vật Lí : ");
+    chemistry = prompt("Nhập Điểm Hóa Học : ");
+    biological = prompt("Nhập Điểm Sinh Học : ");
+    let vatLi = parseInt(physisc);
+    let hoaHoc = parseInt(chemistry);
+    let sinhHoc = parseInt(biological);
+    let trungBinh = (vatLi+hoaHoc+sinhHoc)/3;
+    let tong = vatLi+hoaHoc+sinhHoc;
+    document.write("Điểm Trung Bình : " + trungBinh);
+    document.write("</br>");
+    document.write("Tổng Điểm : " + tong);
+    </script>
+</div>
+<div>
+<script>
+    document.write("</br>");
+    document.write("Bài 2");
+    let celsius;
+    celsius = prompt("Nhập Độ C : ");
+    let doC = parseInt(celsius);
+    let doF = doC*9/5+32;
+    document.write("</br>");
+    document.write("Độ F = " + doF);
+</script>
+</div>
+<div>
+<script>
+    document.write("</br>");
+    document.write("Bài 3");
+    let r;
+    r = prompt("Nhập Bán Kính Hình Tròn : ");
+    let banKinh = parseInt(r);
+    const PI = 3.14;
+    let dienTich = PI*banKinh*banKinh;
+    document.write("</br>");
+    document.write("Diện Tích Hình Tròn : " + dienTich);
+</script>
+</div>
+<div>
+<script>
+    document.write("</br>");
+    document.write("Bài 4");
+    let chuVi = banKinh*2*PI;
+    document.write("</br>");
+    document.write("Chu Vi Hình Tròn : " + chuVi);
+
+</script>
+</div>
+</body>
+</html>
