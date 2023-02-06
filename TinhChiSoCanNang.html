@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Chieu Cao : "));
+    let b = parseInt(prompt("Can Nang : "));
+    let c = b / ((a/100)*(a/100));
+    if (c<18.5){
+        document.write("Underweight");
+    }else if(c<25){
+        document.write("Normal");
+    }else if(c<30){
+        document.write("Overweight");
+    }else {
+        document.write("Obese");
+    }
+</script>
+</body>
+</html>
