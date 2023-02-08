@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Ban Muon Tinh Lai Theo Thang Hay Ngay?(1:Thang 2:Ngay)");
+    let soTienGui;
+    let soTienLai;
+    let laiXuat = 12 / 100;
+    switch (a) {
+        case 2 :
+            soTienGui = +prompt("Nhap So Tien Gui");
+            let soNgayGui = +prompt("Nhap So Ngay Gui");
+            soTienLai = soTienGui * laiXuat * soNgayGui / 365;
+            alert("So Tien Lai La : " + soTienLai);
+            break;
+        case 1 :
+            soTienGui = +prompt("Nhap So Tien Gui");
+            let soThangGui = +prompt("Nhap So Thang Gui");
+            laiXuat = 12 / 100;
+            soTienLai = soTienGui * laiXuat / 12 * soThangGui;
+            alert("So Tien Lai La : " + soTienLai);
+            break;
+        default :
+            alert("Nhap Sai");
+    }
+</script>
+</body>
+</html>

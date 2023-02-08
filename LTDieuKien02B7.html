@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhap a : ");
+    let b = +prompt("Nhap b : ");
+    let c = +prompt("Nhap c : ");
+    let nghiem1;
+    let nghiem2;
+    let denta = (b * b) - (4 * a * c);
+    if (denta < 0) {
+        alert("PT Vo Nghiem");
+    } else if (denta = 0) {
+        alert("PT Co Nghiem Kep x1 = x2 = " + ((-b) / 2 * a));
+    } else {
+        alert("PT Co 2 Nghiem Phan Biet");
+        nghiem1 = ((-b) + Math.sqrt(denta)) / (2 * a);
+        nghiem2 = ((-b) - Math.sqrt(denta)) / (2 * a);
+        alert("x1 = " + nghiem1 +" ; "+ "x2 = " + nghiem2);
+
+    }
+</script>
+</body>
+</html>

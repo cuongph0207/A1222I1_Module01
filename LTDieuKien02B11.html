@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+<script>
+    let luong = +prompt("Nhập Thu Nhập Của Bạn : ");
+    let thueThuNhap;
+    if(luong<=5000000){
+        thueThuNhap = luong*0.05;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else if(luong<=10000000){
+        thueThuNhap = luong*10/100-250000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else if(luong<=18000000){
+        thueThuNhap = luong*0.15-750000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else if(luong<=32000000){
+        thueThuNhap = luong*0.2-1650000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else if (luong<=52000000){
+        thueThuNhap = luong*0.25-3250000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else if (luong<=80000000){
+        thueThuNhap = luong*0.3-5850000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }else {
+        thueThuNhap = luong*0.35-9850000;
+        document.write("Thuế thu nhập cá nhân phải đóng : " + thueThuNhap);
+    }
+</script>
+</body>
+</html>
