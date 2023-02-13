@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Ứng Dụng Máy Tính</title>
     <style>
-        button{
+        button {
             width: 50px;
             height: 50px;
         }
@@ -55,24 +55,28 @@
 <script>
     let resultDisplay = document.getElementById("result");
     let result = 0;
+
     function pressNumber(num) {
         if (resultDisplay.innerHTML === '0') {
             resultDisplay.innerHTML = num;
-        } else if (result === 0 ){
+        } else if (result === 0) {
             resultDisplay.innerHTML += num;
         } else {
             resultDisplay.innerHTML = num;
             result = 0;
         }
     }
+
     function pressOperator(operator) {
         resultDisplay.innerHTML += operator;
         result = 0;
     }
+
     function pressC() {
-        resultDisplay.innerHTML='0';
+        resultDisplay.innerHTML = '0';
         result = 0;
     }
+
     function pressEqual() {
         result = eval(resultDisplay.innerHTML);
         resultDisplay.innerHTML = result;
