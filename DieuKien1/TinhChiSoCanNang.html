@@ -6,16 +6,16 @@
 </head>
 <body>
 <script>
-    let a = parseInt(prompt("Chieu Cao : "));
-    let b = parseInt(prompt("Can Nang : "));
-    let c = b / ((a/100)*(a/100));
-    if (c<18.5){
+    let heigh = parseInt(prompt("Chieu Cao : "));
+    let weigh = parseInt(prompt("Can Nang : "));
+    let BMI = weigh / ((heigh / 100) * (heigh / 100));
+    if (BMI < 18.5) {
         document.write("Underweight");
-    }else if(c<25){
+    } else if (BMI < 25) {
         document.write("Normal");
-    }else if(c<30){
+    } else if (BMI < 30) {
         document.write("Overweight");
-    }else {
+    } else {
         document.write("Obese");
     }
 </script>
