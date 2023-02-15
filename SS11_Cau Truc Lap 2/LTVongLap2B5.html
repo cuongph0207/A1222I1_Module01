@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    alert("Tinh Tien Goc Lan Lai Khi Gui Lai Kep")
+    let soTien = +prompt("Nhap so tien ban dau ");
+    let thang = +prompt("Nhap so thang gui");
+    let laiXuat = 1/100;
+    let tienLai;
+    let gocLanLai = soTien;
+    let i;
+    tienLai = soTien*laiXuat;
+    for(i=1;i<=thang;i++){
+        tienLai = gocLanLai*laiXuat;
+        gocLanLai = gocLanLai+tienLai;
+    }
+    document.write(+gocLanLai);
+</script>
+</body>
+</html>
