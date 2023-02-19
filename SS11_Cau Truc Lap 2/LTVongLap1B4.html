@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-    let i,a,a1,a2;
+    let i, a, a1, a2;
     a = a1 = a2 = 1;
-    for (i = 0;i<=17;i++){
-        a = a1+a2;
+    for (i = 0; i <= 17; i++) {
+        a = a1 + a2;
         a1 = a2;
         a2 = a;
-        document.write(+a+" ");
-        if (a%5==0){
-            document.write("So Dau Tien Chia Het Cho 5 : "+a);
+        document.write(+a + " ");
+        if (a % 5 == 0) {
+            document.write("So Dau Tien Chia Het Cho 5 : " + a);
             break;
         }
     }

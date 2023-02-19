@@ -6,13 +6,11 @@
 </head>
 <body>
 <script>
-    let n = +prompt("Nhap n : ");
-    let i;
-    let tich = 1;
-    for (i = 1; i <= n; i++) {
-        tich *= i;
+    let mang = [];
+    for (let i = 0;i<5;i++){
+        mang[i] = +prompt("Nhap Phan Tu Cua Mang : ");
     }
-    document.write(+tich);
+    document.write(mang.reverse());
 </script>
 </body>
 </html>

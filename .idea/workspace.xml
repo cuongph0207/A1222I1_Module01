@@ -21,6 +21,19 @@
   <component name="ChangeListManager">
     <list default="true" id="772b8459-d319-4fb4-a77e-c6807d9a2192" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B2.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B4.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B7.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B8.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap1B8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B1.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B2.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B4.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/LTVongLap2B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/SoNguyenTo.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS11_Cau Truc Lap 2/SoNguyenTo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +108,9 @@
       <workItem from="1675853898833" duration="11195000" />
       <workItem from="1676284976737" duration="81000" />
       <workItem from="1676287458212" duration="9640000" />
-      <workItem from="1676460785169" duration="4400000" />
+      <workItem from="1676460785169" duration="7071000" />
+      <workItem from="1676638330164" duration="5652000" />
+      <workItem from="1676817792077" duration="2117000" />
     </task>
     <servers />
   </component>
@@ -115,6 +130,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="519" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1676466767903">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="519" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1676466767903" />
     <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1673273798866">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

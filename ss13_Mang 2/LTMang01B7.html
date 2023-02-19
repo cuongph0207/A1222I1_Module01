@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+    let v = +prompt("Nhap V de kiem tra : ");
+    let count = 0;
+    for (let i = 0; i < mang.length; i++) {
+        if (mang[i] == v) {
+            mang.splice(mang[v], 1,);
+        } else {
+            count++;
+        }
+    }
+    document.write(mang + " ");
+    if (count == 10) {
+        document.write("V khong co trong mang");
+    }
+</script>
+</body>
+</html>

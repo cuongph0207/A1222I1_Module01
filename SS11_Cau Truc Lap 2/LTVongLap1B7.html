@@ -7,17 +7,15 @@
 <body>
 <script>
     let i;
-    for(i=0;i<=100;i++){
-        if (i%3==0){
+    for (i = 0; i <= 100; i++) {
+        if (i % 3 == 0) {
             document.write("Fizz");
-        }else
-        if (i%5==0){
+        } else if (i % 5 == 0) {
             document.write("Buzz");
-        }else
-        if(i%3==0 && i%5==0){
+        } else if (i % 3 == 0 && i % 5 == 0) {
             document.write("FizzBuzz");
-        }else
-        document.write(" ; " +i+" ; ");
+        } else
+            document.write(" ; " + i + " ; ");
     }
 </script>
 </body>

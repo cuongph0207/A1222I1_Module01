@@ -9,16 +9,18 @@
     alert("Tinh Tien Goc Lan Lai Khi Gui Lai Kep")
     let soTien = +prompt("Nhap so tien ban dau ");
     let thang = +prompt("Nhap so thang gui");
-    let laiXuat = 1/100;
+    let laiXuat = 15 / 100;
     let tienLai;
     let gocLanLai = soTien;
     let i;
-    tienLai = soTien*laiXuat;
-    for(i=1;i<=thang;i++){
-        tienLai = gocLanLai*laiXuat;
-        gocLanLai = gocLanLai+tienLai;
+    tienLai = soTien * laiXuat;
+    for (i = 1; i <= thang; i++) {
+        tienLai = gocLanLai * laiXuat;
+        gocLanLai = gocLanLai + tienLai;
+        document.write("Thang" + i + " " + gocLanLai);
+
     }
-    document.write(+gocLanLai);
+    document.write(+parseInt(gocLanLai));
 </script>
 </body>
 </html>
