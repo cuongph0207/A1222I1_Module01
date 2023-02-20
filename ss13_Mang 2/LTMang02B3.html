@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let mang = [];
+    let count = 0;
+    for (let i = 0; i < 3; i++) {
+        mang[i] = +prompt("Nhap phan tu cua mang : ");
+    }
+    for (i = 0; i < 10; i++) {
+        if (isNaN(mang[i]) == false) {
+            count++;
+        }
+    }
+    document.write("Co " + count + " phan tu la so .");
+</script>
+</body>
+</html>
