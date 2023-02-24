@@ -6,13 +6,35 @@
 </head>
 <body>
 <script>
-    let str1 = prompt("Nhap chuoi 1 : ").trim();
-    let str2 = prompt("Nhap chuoi 2 : ").trim();
-    if (str1 == str2) {
-        document.write("Chuoi 1 giong chuoi 2");
-    } else {
-        document.write("Chuoi 1 khac chuoi 2");
+    let str1 = prompt("Nhập vào chuỗi thứ nhất");
+    let str2 = prompt("Nhập vào chuỗi thứ hai");
+    let str1Arr = [];
+    let str2Arr = [];
+    let count = 0;
+    for (let i = 0; i <str1.length ; i++) {
+        str1Arr[i]=str1.slice(i,i+1);
     }
+    document.write(str1Arr);
+    for (let j = 0; j <str2.length ; j++) {
+        str2Arr[j]=str2.slice(j,j+1);
+    }
+    document.write(str2Arr);
+    if((str1.length)!==(str2.length)){
+        document.write("Hai chuỗi không giống nhau");
+    }else {
+        for (let i = 0; i < str1Arr.length; i++) {
+            if (str1Arr[i] === str2Arr[i]) {
+                count++;
+            }
+        }
+    }
+    document.write(count);
+
+    if (count === (str1Arr.length)) {
+        document.write("Hai chuỗi giống nhau");
+    }document.write("Hai chuỗi không giống nhau");
+
 </script>
+
 </body>
 </html>

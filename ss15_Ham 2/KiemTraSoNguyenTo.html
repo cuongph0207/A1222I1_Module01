@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Kiem Tra So Nguyen To</p>
+<input type="number" id="nhap" placeholder="Nhap so Can Kiem Tra">
+<button type="button" onclick="calculate()">Check</button>
+<p id="result"></p>
+<script>
+
+    function isPrime(number) {
+        let flag = true;
+        if (number === 2 || number === 3 || number === 5) {
+            flag = true;
+        }
+        if (number <= 1 || number % 2 === 0) {
+            flag = false;
+        }
+        for (let i = 3; i <= Math.sqrt(number); i += 2) {
+            if (number % i === 0) {
+                flag = false;
+                break;
+            } else {
+                flag = true;
+            }
+        }
+        if (flag == true) {
+            document.getElementById("result").innerHTML = "La So Nguyen To";
+        } else {
+            document.getElementById("result").innerHTML = "Khong Phai La So Nguyen To";
+        }
+    }
+
+    function calculate() {
+        let input = +document.getElementById("nhap").value;
+        isPrime(input);
+    }
+</script>
+
+
+</body>
+</html>

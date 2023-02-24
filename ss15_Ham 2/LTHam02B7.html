@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num1 = +prompt("Nhap so thu nhat : ");
+    let num2 = +prompt("Nhap so thu hai : ");
+    function chuyenDoiViTri() {
+        let temp = num1;
+        num1 = num2;
+        num2 = temp;
+        alert(num1 +","+ num2);
+    }
+    chuyenDoiViTri();
+</script>
+</body>
+</html>

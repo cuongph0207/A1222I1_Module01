@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample</title>
+</head>
+<body>
+
+<p>Sample</p>
+
+<label for="fruit">Hãy lựa chọn</label>
+<select id="fruit">
+    <option value="orange">Orange</option>
+    <option value="lemon" selected>Lemon</option>
+    <option value="strawberry">Strawberry</option>
+</select>
+
+<div>
+    <input type="button" value="Check" id="checkButton">
+</div>
+
+<script>
+    function buttonClick(){
+        console.log('Option được chọn có giá trị: ' + fruitSelect.value);
+    }
+
+    let fruitSelect = document.getElementById('fruit');
+    fruitSelect.options[2].selected = true;
+
+    let checkButton = document.getElementById('checkButton');
+    checkButton.addEventListener('click', buttonClick);
+</script>
+
+</body>
+</html>
