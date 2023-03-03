@@ -5,14 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-<script>
-    let arr1 = ["Polaris","Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
-    let arr2 = ["Ursa Minor","Tarurus","Cygnus","Lyra","Aquila","Ursa Major","Leo"];
-    function fix1(str) {
-        for (let i=0;i<arr1.length;i++){
-            if ()
+<script>function check() {
+    let arrName = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"]
+    let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]
+    let n = prompt("Nhập:")
+    let flag = false;
+    for (let i = 0; i < arrName.length; i++) {
+        if (arrName[i] === n) {
+            document.write("Cung Hoàng Đạo:" + arr2[i]);
+            flag = true;
+            break;
         }
     }
+    if (flag === false) {
+        document.write("Không tìm thấy")
+    }
+
+}
+
+check();
+
 </script>
 </body>
 </html>
