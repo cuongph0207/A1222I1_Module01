@@ -21,11 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="772b8459-d319-4fb4-a77e-c6807d9a2192" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SS9_Cau Truc Dieu Kien 2/LTDieuKien01B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS9_Cau Truc Dieu Kien 2/LTDieuKien01B5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam01B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam01B5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/DienThoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16 OOP 1/DienThoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/HCN.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16 OOP 1/HCN.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/Temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16 OOP 1/Temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/Test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh2.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +123,7 @@
       <workItem from="1678074951313" duration="1699000" />
       <workItem from="1678096455008" duration="312000" />
       <workItem from="1678104317692" duration="2608000" />
-      <workItem from="1678269539851" duration="124000" />
+      <workItem from="1678269539851" duration="400000" />
     </task>
     <servers />
   </component>

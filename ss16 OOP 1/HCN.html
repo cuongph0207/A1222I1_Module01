@@ -1,73 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-<canvas
-        id="canvas"
-        width="1000px"
-        height="600px"
-        style="border: 1px solid #000000"
-></canvas>
-<button onclick="update()">sửa</button>
-</body>
-
 <script>
-    const canvas = document.getElementById("canvas");
-    const canvas2D = canvas.getContext("2d");
     class Rectangle {
-        constructor(width, height) {
-            if (Number.isInteger(width) && width > 0 && height < 980) {
-                this.width = width;
-            }else {
-                this.width = 0;
-            }
-            if (Number.isInteger(height) && height > 0 && height < 580) {
-                this.height = height;
-            }else {
-                this.height = 0;
-            }
+        constructor(length, width) {
+            this.length = length;
+            this.width = width;
         }
-        computeArea() {
-            return this.width * this.height;
+
+        getPerimeter() {
+            return (this.length + this.width)*2;
         }
-        computePerimeter() {
-            return (this.width + this.height) * 2;
+
+        getArea() {
+            return this.length * this.width;
         }
-        drawRectangle(canvasElement) {
-            canvasElement.clearRect(10,10,980,580)
-            canvasElement.fillStyle = "#FF0000";
-            canvasElement.strokeRect(10,10,this.width,this.height);
-            canvasElement.font = "12px Arial";
-            canvasElement.fillStyle = "#000";
-            canvasElement.fillText(`Area : ${this.computeArea()}m^2 `, 10, 22);
-            canvasElement.fillText(` Perimeter : ${this.computePerimeter()}m`,10,40)
+
+        getInfor() {
+            alert("Chu Vi Hình Chữ Nhật Là: " + this.getPerimeter() + " Diện tích Hình Chữ Nhật là :" + this.getArea());
         }
-        setWidth(newWidth) {
-            if (Number.isInteger(newWidth) && newWidth > 0) {
-                this.width = newWidth;
-            }
-        }
-        setHeight(newHeight) {
-            if (Number.isInteger(newHeight) && newHeight > 0) {
-                this.height = newHeight;
-            }
+        setRectangle(newLength,newWidth){
+            this.length = newLength;
+            this.width = newWidth;
         }
     }
-    let width = +prompt("Enter width rectangle (0<x<980) : ");
-    let height = +prompt("Enter height rectangle (0<y<580) : ");
-    let rectangle = new Rectangle(width, height);
-    rectangle.drawRectangle(canvas2D);
-    function update() {
-        let newWidth = +prompt("Enter width rectangle(0<x<980) : ");
-        let newHeight = +prompt("Enter height rectangle (0<y<580): ");
-        rectangle.setWidth(newWidth);
-        rectangle.setHeight(newHeight);
-        rectangle.drawRectangle(canvas2D);
-    }
+    let lengthOfRectangle = +prompt("Nhập chiều dài Hình Chữ Nhật: ");
+    let widthOfRectangle = +prompt("Nhập chiều rộng Hình Chữ Nhật: ");
+    let rectangle = new Rectangle(lengthOfRectangle,widthOfRectangle);
+    rectangle.setRectangle(lengthOfRectangle,widthOfRectangle);
+    rectangle.getInfor();
 </script>
+</body>
 </html>

@@ -2,10 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Điện Thoại</title>
 </head>
 <body>
 <script>
+    class Mobile {
+        constructor(battery, dangsoanthao, hopthuden, tinnhandagui, status) {
+            if (battery > 0 && battery <= 100) {
+                this.battery = battery;
+            }
+            this.dangsoanthao = [];
+            this.hopthuden = [];
+            this.tinnhandagui = [];
+            this.status = status;
+        }
+
+        onStatus() {
+            return this.status = 1;
+        }
+
+        offStatus() {
+            return this.status = -1;
+        }
+
+        chargeBattery() {
+            if (this.battery <= 100) {
+                this.battery++;
+            }
+        }
+
+        soantinnhan() {
+            if (this.status === 1) {
+                this.dangsoanthao = prompt("Nhập Tin Nhắn Bạn Muốn Gửi")
+                this.hopthuden.push(this.dangsoanthao);
+                this.battery--;
+            }
+        }
+        dagui()
+        {
+            console.log("tin nhắn đã gửi có:" + this.hopthuden);
+            this.battery--;
+        }
+
+        hopthuden1() {
+            if (this.status === 1) {
+                console.log("Hộp thư của bạn có " + this.hopthuden.length + "Tin nhắn mới là:"+ " " + this.hopthuden);
+                this.battery--;
+            }
+        }
+    }
+
+    let iphone = new Mobile(36, 'on');
+    let nokia = new Mobile(34, 'off');
+    iphone.chargeBattery();
+    iphone.onStatus();
+    iphone.soantinnhan();
+    iphone.soantinnhan();
+    iphone.soantinnhan();
+    iphone.hopthuden1();
+    iphone.dagui();
+    nokia.hopthuden1(console.log("Tin Nhắn Được Gửi Đến Là :" + iphone.hopthuden));
+
 
 </script>
 </body>

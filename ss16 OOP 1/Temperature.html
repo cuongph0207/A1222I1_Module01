@@ -2,36 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nhiệt Độ</title>
 </head>
 <body>
-<div class="print"></div>
-</body>
 <script>
-    class Tempurature {
-        constructor(Tempurature) {
-            if (Number.isInteger(Tempurature) && Tempurature > -273) {
-                this.Tempurature = Tempurature;
-
-            }
+    class Temperature{
+        constructor(doC) {
+            this.doC = doC;
         }
-
-        convertCToF() {
-            return (this.Tempurature * 1.8) + 32;
+        getCtoF(){
+            return 1.8 * this.doC + 32;
         }
-
-        convertCToK() {
-            return this.Tempurature + 273, 15
+        getCtoKenvin(){
+            return this.doC +  273.15;
         }
-
-        getTempurature() {
-            return this.Tempurature
+        getInfor(){
+            alert("Nhiệt Độ F là : " + this.getCtoF() + " Nhiệt Độ Kenvin là: " + this.getCtoKenvin());
         }
     }
+    let n = +prompt("Nhập Độ C vào đây: ")
+    if(n > -273){
+        let temperature = new Temperature(n);
+        temperature.getInfor();
+    }else {
+        alert("Nhiệt độ C phải lớn hơn -273 độ:")
+    }
 
-    let tempurature = new Tempurature(25);
-    document.write(`${tempurature.getTempurature()}^C  =  ${tempurature.convertCToF()}^F`)
 </script>
+</body>
 </html>
