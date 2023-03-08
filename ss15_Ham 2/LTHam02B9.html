@@ -6,10 +6,10 @@
 </head>
 <body>
 <script>
+    let arr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "m", "a", "c", "e", "g", "i", "l"];
+    let kiTu = prompt("Nhap ki tu bat ki : ");
+    let count = 0;
     function kiemTraKiTu() {
-        let arr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "m", "a", "c", "e", "g", "i", "l"];
-        let kiTu = prompt("Nhap ki tu bat ki : ");
-        let count = 0;
         for (let i = arr[0]; i < arr.length; i++) {
             if (kiTu == arr[i]) {
                 count++;

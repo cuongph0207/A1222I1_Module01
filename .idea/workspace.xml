@@ -21,7 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="772b8459-d319-4fb4-a77e-c6807d9a2192" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SS9_Cau Truc Dieu Kien 2/LTDieuKien01B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/SS9_Cau Truc Dieu Kien 2/LTDieuKien01B5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam01B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam01B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B9.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss15_Ham 2/LTHam02B9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss16 OOP 1/ThucHanh1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="LTDieuKien01B4.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Module01/LTDieuKien01B4.html" useBuiltInWebServerPort="true">
@@ -112,7 +117,11 @@
       <workItem from="1677218352120" duration="3240000" />
       <workItem from="1677241361455" duration="5829000" />
       <workItem from="1677849277755" duration="17000" />
-      <workItem from="1677849295298" duration="251000" />
+      <workItem from="1677849295298" duration="4227000" />
+      <workItem from="1678074951313" duration="1699000" />
+      <workItem from="1678096455008" duration="312000" />
+      <workItem from="1678104317692" duration="2608000" />
+      <workItem from="1678269539851" duration="124000" />
     </task>
     <servers />
   </component>
@@ -204,14 +213,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state width="1515" height="258" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1677072254480" />
+    <state x="277" y="53" key="SettingsEditor" timestamp="1677852414069">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="277" y="53" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1677852414069" />
     <state x="567" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1677241508582">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="567" y="97" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1677241508582" />
-    <state x="478" y="143" width="579" height="530" key="find.popup" timestamp="1676461523503">
+    <state x="478" y="143" width="579" height="530" key="find.popup" timestamp="1678108845904">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="478" y="143" width="579" height="530" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1676461523503" />
+    <state x="478" y="143" width="579" height="530" key="find.popup/0.0.1536.816@0.0.1536.816" timestamp="1678108845904" />
     <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1677241458857">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

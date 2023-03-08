@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body></body>
+<script>
+    class Mobile {
+        constructor(batteryStatus) {
+            if(batteryStatus>0 && batteryStatus <=100){
+                this.batteryStatus = batteryStatus;
+            }
+            this.messageWriting;
+            this.mailBox = [];
+            this.mailBoxSent = [];
+            this.isTurnOn = false;;
+            this.isCharging = false;
+        }
+        checkBatteryStatus() {
+            if(this.isTurnOn){
+                return this.batteryStatus
+            }
+        }
+        checkStatus() {
+            if ( this.isTurnOn) {
+                this.batteryStatus -= 1;
+                return this.isTurnOn;
+            }
+        }
+        decreaseBattery(){
+            this.batteryStatus -= 1;
+            if ( this.batteryStatus==0){
+                this.isTurnOn = false;
+            }
+        }
+        turnOn() {
+            if (!this.isTurnOn) {
+                this.decreaseBattery();
+                this.isTurnOn = !this.isTurnOn;
+            }
+        }
+        turnOff() {
+            if (this.isTurnOn) {
+                this.decreaseBattery();
+                this.isTurnOn = !this.isTurnOn;
+            }
+        }
+
+        batteryCharger() {
+            if (!this.isCharging) {
+                this.isCharging = true;
+            }
+        }
+
+        writeMessage(message) {
+            if (this.isTurnOn) {
+                this.decreaseBattery();
+                this.setMessage(message);
+            }
+        }
+        receiveMessages(message) {
+            if (this.isTurnOn) {
+                this.decreaseBattery();
+                this.setMailBox(message);
+            }
+        }
+
+        sentMessage(otherMobile) {
+            if (this.isTurnOn) {
+                this.decreaseBattery();
+                if(this.getMessage()!=undefined){
+                    otherMobile.receiveMessages(this.getMessage());
+                    this.getMailBoxSent().unshift(this.getMessage());
+                    this.setMessage(undefined);
+
+                }
+
+            }
+        }
+        seenMessage() {
+            return this.mailBox[0]
+        }
+
+        //setter and getter
+        setMessage(message) {
+            this.messageWriting = message;
+        }
+        getMessage(){
+            return this.messageWriting;
+        }
+        setMailBox(message) {
+            this.mailBox.unshift(message);
+        }
+        getMailBox(){
+            return this.mailBox;
+        }
+        setMailBoxSent(message) {
+            this.mailBoxSent.unshift(message);
+        }
+        getMailBoxSent(){
+            return this.mailBoxSent;
+        }
+    }
+
+
+
+    ////////////////////////////////////////////////////////////////
+    let nokia = new Mobile(90);
+    let iphone = new Mobile(80);
+    nokia.turnOn();
+    iphone.turnOn();
+    nokia.writeMessage("hello world");
+    nokia.sentMessage(iphone)
+    document.write("<br>"+iphone.seenMessage())
+    iphone.writeMessage("tôi đã nhận được tin nhắn");
+    iphone.sentMessage(nokia);
+    document.write("<br>"+nokia.seenMessage())
+</script>
+</html>
